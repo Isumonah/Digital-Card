@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #595555;
+}
+
+.card{
+    width: 317px;
+    margin: 30px auto;
+    background: #F5F5F5;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    
+}
+
+/* info section */
+
+
+
+.my-img{
+    width: 100%;
+    background: #F5F5F5;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #2B283A;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 6px;
+    
+}
+
+.job{
+    color: #F47D27;
+    font-size: 13px;
+    text-align: center;
+    margin-bottom: 8.5px;
+}
+
+.website{
+    text-align: center;
+    font-size: 11px;
+    color: #4A4E74;
+    margin-bottom: 17px;
+}
+
+
+.info-btns{
+    text-align: center;
+}
+
+.info-btns button{
+    border-radius: 6px;
+    border: none;
+    width: 115px;
+    height: 34px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.email-btn{
+    margin-right: 17px;
+    background-color: white;
+}
+
+.linkedin-btn{
+    background-color: #297FE5;
+}
+
+.info-icon{
+    margin-right: 8px;
+    height: 16px;
+    width: 16px;
+}
+
+.info-span,
+.info-icon{
+    vertical-align: middle;
+}
+
+.section{
+    margin: 15px 30px 0;
+}
+.section-writeup{
+    font-size: 11px;
+    line-height: 15px;
+    color: #4A4E74;
+}
+
+.title{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color:#2B283A;
+}
+
+
+/* projects section */
+
+.my-projects{
+   display: grid;
+   grid-template-columns: 50% 50%;
+   margin-top: 5px;
+    
+}
+
+
+.my-projects a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+    line-height: 15px;
+    color: #4A4E74;
+    list-style: none;
+    background-color: #297FE5;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+
+    
+}
+
+.my-projects a:nth-child(odd){
+    margin-right: 10px;
+}
+
+.my-projects a:hover{
+    background-color: magenta;
+    cursor: pointer;
+}
+
+/* footer section */
+
+.footer{
+    margin-top: 15px;
+    text-align: center;
+    background-color: #D5D4D8;
+    padding: 19px 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.footer-icon{
+    width: 25px;
+    height: 25px;
+}
+
+.footer-icon + .footer-icon{
+    margin-left: 24px ;
+}

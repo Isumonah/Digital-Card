@@ -10,7 +10,7 @@ export default function App(props){
     return (
         <Router>
             <div className="card">
-                <Routes>
+                
                     <Route exact path='/' element = {
                         <>
                             <Info />
@@ -22,7 +22,6 @@ export default function App(props){
                     }
                 >
                     </Route>
-                </Routes>
                 
             </div>
         </Router>

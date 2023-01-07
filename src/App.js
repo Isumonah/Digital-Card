@@ -1,3 +1,4 @@
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom"
 import Info from "./components/Info"
 import About from "./components/About"
 import Interests from "./components/Interests"
@@ -7,12 +8,23 @@ import Projects from "./components/Projects"
 export default function App(props){
     console.log(props)
     return (
-        <div className="card">
-            <Info />
-            <About />
-            <Interests />
-            <Projects />
-            <Footer />
-        </div>
+        <Router>
+            <div className="card">
+                <Routes>
+                    <Route exact path='/' element = {
+                        <>
+                            <Info />
+                            <About />
+                            <Interests />
+                            <Projects />
+                            <Footer />
+                        </>
+                    }
+                >
+                    </Route>
+                </Routes>
+                
+            </div>
+        </Router>
     )
 }

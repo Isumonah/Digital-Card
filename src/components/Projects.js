@@ -5,33 +5,36 @@ export default function Projects(){
             <h3 className="title">Projects</h3>
             <p className="section-writeup">Some of my Projects are:</p>
             <ul className="my-projects">
-                <a><li>
+            <li>
                     Colour-Changer
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                     Movie-watchlist
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                     Invoice Creator
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                     Personal Dashboard
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                     Colour Scheme Generator
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                     Random Password Generator
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                 Metric/Imperial unit converter
-                </li></a>
-                <a><li className="personal">
+                </li>
+            <li className="personal">
                 My personal Portfolio
-                </li></a>
-                <a><li>
+                </li>
+            <li>
                 Topskill 100 days Challenge 
-                </li></a>
+                </li>
+            <li>
+                Todo App
+                </li>
             </ul>
 
         </div>

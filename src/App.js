@@ -9,21 +9,22 @@ export default function App(props){
     console.log(props)
     return (
         <Router>
-            <div className="card">
-                
-                    <Route exact path='/' element = {
-                        <>
-                            <Info />
-                            <About />
-                            <Interests />
-                            <Projects />
-                            <Footer />
-                        </>
-                    }
-                >
-                    </Route>
-                
-            </div>
+        <div className="card">
+            <Routes>
+                <Route exact path='/' element = {
+                    <>
+                        <Info />
+                        <About />
+                        <Interests />
+                        <Projects />
+                        <Footer />
+                    </>
+                }
+            >
+                </Route>
+            </Routes>
+            
+        </div>
         </Router>
     )
 }
